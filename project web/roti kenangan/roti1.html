@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produk Terbaik Kami</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      margin: 20px;
+      position: relative;
+    }
+
+    .produk-container {
+      border: 3px solid #d2691e;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .produk-title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #8b4513;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .produk-item {
+      display: flex;
+      gap: 20px;
+      border: 1px solid #f0c090;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      background-color: #fff8f0;
+    }
+
+    .produk-item img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #d2691e;
+    }
+
+    .produk-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .produk-info h3 {
+      margin: 0 0 10px 0;
+      color: #6b3e00;
+    }
+
+    .produk-info p {
+      margin: 0 0 15px 0;
+      color: #5a3a00;
+      line-height: 1.4;
+    }
+
+    .rating {
+      color: #f5a623;
+      font-size: 20px;
+    }
+
+    .btn-wrapper {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .btn-kembali {
+      display: inline-block;
+      background-color: #d2691e;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-kembali:hover {
+      background-color: #a0522d;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="produk-container">
+    <div class="produk-title">Produk Terbaik Kami</div>
+
+    <div class="produk-item">
+      <img src="img/products/main.jpg" alt="Roti Kenangan Original" />
+      <div class="produk-info">
+        <h3>Croissant Original</h3>
+        <p>Roti croissant dengan lapisan renyah keemasan di luar dan lembut di dalam. Dibuat dengan teknik lipatan berlapis khas Prancis dan 
+        menggunakan mentega premium, menciptakan cita rasa yang buttery, ringan, dan meleleh di mulut. Cocok dinikmati hangat bersama kopi atau teh favorit Anda.</p>
+        <div class="rating">★★★★☆</div>
+      </div>
+    </div>
+
+    <div class="produk-item">
+      <img src="img/products/unggulan.jpg" alt="Roti Kenangan Coklat" />
+      <div class="produk-info">
+        <h3>Choclate Toast</h3>
+        <p>Roti panggang lembut yang diselimuti lelehan cokelat premium — manisnya pas, 
+            legitnya bikin rindu. Cocok dinikmati saat pagi yang tenang atau malam penuh nostalgia. Setiap gigitan bawa kamu ke momen paling manis.</p>
+        <div class="rating">★★★★★</div>
+      </div>
+    </div>
+
+    <div class="produk-item">
+      <img src="img/products/unggulan2.jpg" alt="Roti Kenangan Original" />
+      <div class="produk-info">
+        <h3>Croissant Cheese</h3>
+        <p>Lapisan croissant renyah berpadu sempurna dengan isian keju lumer yang gurih dan creamy. Dibuat dari adonan berlapis dengan mentega premium dan keju pilihan, 
+            memberikan sensasi gigitan yang lembut, gurih, dan bikin ketagihan. Cocok untuk sarapan spesial atau camilan sore yang mewah.</p>
+        <div class="rating">★★★★☆</div>
+      </div>
+    </div>
+
+    <!-- Tombol Kembali -->
+    <div class="btn-wrapper">
+      <a href="index.html" class="btn-kembali">← Kembali ke Halaman Utama</a>
+    </div>
+  </div>
+
+</body>
+</html>
